@@ -1,0 +1,23 @@
+logs_df['timestamp'] = pd.to_datetime(logs_df['timestamp'])
+    logs_df = logs_df.sort_values(by='timestamp', ascending=False)
+
+    def highlight_alert_events(row):
+        return ['background-color: red; color: white' if row.status=='ALERT' el>
+
+    st.dataframe(
+        logs_df[['timestamp','user','action','status']].style.apply(highlight_a>
+    )
+else:
+    st.write("No events logged yet.")
+logs_df['timestamp'] = pd.to_datetime(logs_df['timestamp'])
+    logs_df = logs_df.sort_values(by='timestamp', ascending=False)
+
+    def highlight_alert_events(row):
+        return ['background-color: red; color: white' if row.status=='ALERT' el>
+
+    st.dataframe(
+        logs_df[['timestamp','user','action','status']].style.apply(highlight_a>
+    )
+else:
+    st.write("No events logged yet.")
+
