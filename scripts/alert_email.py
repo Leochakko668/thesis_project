@@ -3,9 +3,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
-SENDER_EMAIL = "your_gmail@gmail.com"
-SENDER_PASSWORD = "your_app_password"
-RECEIVER_EMAIL = "it_person@institution.com"
+SENDER_EMAIL = "leochakko668@gmail.com"
+SENDER_PASSWORD = "heivvxlknwbofafe"
+RECEIVER_EMAIL = "kattukaranleochakko@gmail.com"
 
 def send_alert(user, reason, details=""):
     try:
