@@ -13,5 +13,20 @@
     "username": "metilda chakko",
     "password": "1234",
     "role": "user"
+  },
+  {
+    "username": "Leo chakko kattukaran",
+    "password": "Metildacl6",
+    "role": "it_admin"
+  },
+  {
+    "username": "mohith",
+    "password": "mohith123",
+    "role": "user"
+  },
+  {
+    "username": "Leo ",
+    "password": "leo123",
+    "role": "user"
   }
 ]

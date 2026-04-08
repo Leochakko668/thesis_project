@@ -4,3 +4,6 @@ scripts/__pycache__/
 *.pyo
 .env
 *.log
+supabase_config.py
+.streamlit/secrets.toml
+scripts/.streamlit/secrets.toml
