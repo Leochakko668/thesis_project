@@ -3,5 +3,8 @@ pandas
 matplotlib
 joblib
 scikit-learn
-supabase
+supabase==2.3.4
+gotrue==2.4.0
+httpx==0.24.1
 cryptography
+numpy
