@@ -42,10 +42,9 @@ st.markdown("""
 SUPABASE_URL = st.secrets["SUPABASE_URL"]
 SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
-BASE_DIR = os.path.expanduser("~/user_behaviour_monitor")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IF_MODEL_FILE = os.path.join(BASE_DIR, "models", "user_behavior_model.joblib")
 LOF_MODEL_FILE = os.path.join(BASE_DIR, "models", "user_behavior_lof.joblib")
-
 @st.cache_resource
 def init_supabase():
     return create_client(SUPABASE_URL, SUPABASE_KEY)
